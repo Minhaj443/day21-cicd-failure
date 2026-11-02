@@ -15,3 +15,5 @@ jobs:
 
       - name: Run Python application
         run: python app.py
+        env:
+          PATH: /usr/local/bin
